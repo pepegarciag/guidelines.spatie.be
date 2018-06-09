@@ -24,7 +24,7 @@ class LoginController extends Controller
     {
         $user = Socialite::driver('google')->stateless()->user();
 
-        abort_unless(ends_with($user->getEmail(), '@spatie.be'), 403);
+        abort_unless(ends_with($user->getEmail(), '@iagt.es'), 403);
 
         $authenticatableUser = User::findOrCreate($user);
 
