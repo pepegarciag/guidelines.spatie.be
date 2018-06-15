@@ -3,8 +3,8 @@
         <header class="home__header waves">
             <div class="home__header__inner">
                 <div class="home__logo">
-                    <a href="https://spatie.be" target="spatie">
-                        @include('svg.logo')
+                    <a href="https://iagt.es" target="iagt">
+                        <img src="http://www.iagt.es/wp-content/themes/innopro/img/iagt_logo_horizontal_light.png" alt="IAGT" style="max-width: 150px">
                     </a>
                 </div>
                 <h1 class="home__title">
@@ -28,6 +28,10 @@
                 {{ app('navigation')->menu()->addClass('menu--home') }}
             </div>
             <footer class="home__index__footer">
+                <a href="https://iagt.es" target="iagt">
+                    IAGT
+                </a>
+                Guidelines based on
                 <a href="https://spatie.be" target="spatie">
                     © spatie.be, Antwerp
                 </a>

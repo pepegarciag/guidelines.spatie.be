@@ -4,8 +4,8 @@
     <section class="sidebar waves">
         <nav class="sidebar__contents">
             <div class="sidebar__logo">
-                <a href="https://spatie.be" target="spatie">
-                    @include('svg.logo')
+                <a href="http://iagt.es" target="iagt">
+                    <img src="http://www.iagt.es/wp-content/themes/innopro/img/iagt_logo_horizontal_light.png" alt="IAGT" style="max-width: 150px">
                 </a>
             </div>
             <div class="sidebar__home">
@@ -22,8 +22,8 @@
                     </button>
                 </form>
             @endauth
-            <a href="https://spatie.be" target="spatie">
-                © spatie.be, Antwerp
+            <a href="http://iagt.es" target="iagt">
+                © iagt.es
             </a>
         </footer>
     </section>

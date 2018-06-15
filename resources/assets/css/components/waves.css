@@ -1,5 +1,5 @@
 .waves {
-    background-image: url('../images/waves.jpg');
+    background-color: var(--green-blue);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left top;

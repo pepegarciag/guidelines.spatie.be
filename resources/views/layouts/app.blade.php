@@ -9,13 +9,13 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     @isset($title)
-        <title>{{ $title }} | Spatie Guidelines</title>
+        <title>{{ $title }} | IAGT Guidelines</title>
     @else
-        <title>Spatie Guidelines</title>
+        <title>IAGT Guidelines</title>
     @endif
 
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6194432/608542/css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="http://cloud.typography.com/6194432/608542/css/fonts.css" />
 
     <script @nonce src="{{ mix('js/app.js') }}" defer></script>
 </head>
